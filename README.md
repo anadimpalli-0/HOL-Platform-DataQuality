@@ -115,7 +115,7 @@ Detailed instruction on Grading instructions can be found [HERE](config/readme.m
 - Run these commands
 ```sql```
 
-  USE ROLE ACCOUNTADMIN;
+ USE ROLE ACCOUNTADMIN;
 
  DROP DATABASE dq_tutorial_db;
 

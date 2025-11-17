@@ -44,7 +44,7 @@ GRANT DATABASE ROLE SNOWFLAKE.USAGE_VIEWER TO ROLE dq_tutorial_role;
 CREATE WAREHOUSE IF NOT EXISTS dq_tutorial_wh;
 GRANT USAGE ON WAREHOUSE dq_tutorial_wh TO ROLE dq_tutorial_role;
 
-##Confirm the grants to the dq_tutorial_role role:
+--Confirm the grants to the dq_tutorial_role role:
 
 SHOW GRANTS TO ROLE dq_tutorial_role;
 
@@ -54,7 +54,7 @@ GRANT ROLE dq_tutorial_role TO ROLE SYSADMIN;
 GRANT ROLE dq_tutorial_role TO USER <replace with your UserID>;
 
 
-##Create Objects
+--Create Objects
 
 USE ROLE dq_tutorial_role;
 
@@ -178,17 +178,17 @@ in helping you get started with continuous data quality monitoring by laying the
 quality rules.
 <img src="/images/Profiling.png" width="70%">
 
-# Step 4 - Best practices for monitoring data quality with DMFs and Expectations 
+# Step 4 - Best practices for Monitoring Data Quality with DMFs and Expectations 
 At each layer, we are interested in monitoring different aspects. 
 
-Bronze: Test source data 
-Silver: Validate transformations
-Gold: Test business logic 
+- Bronze: Test source data 
+- Silver: Validate transformations
+- Gold: Test business logic 
 
-Organizations typically take different approaches to monitoring and enforcing data quality. Some focus on Bronze layer to catch issues as early as possible, ensuring that all ingested data meets baseline expectations. 
-Yet, bad data might emerge later in the pipeline. Others monitor 
-Gold layer to prioritize end-user experience by ensuring that curated datasets remain accurate and reliable. However, this makes root-cause analysis more complex.
-Silver layer to validate transformations and business logic. But this requires ongoing maintenance as transformation evolves.
+1) Organizations typically take different approaches to monitoring and enforcing data quality. Some focus on Bronze layer to catch issues as early as possible, ensuring that all ingested data meets baseline expectations. 
+Yet, bad data might emerge later in the pipeline. 
+2) Others monitor Gold layer to prioritize end-user experience by ensuring that curated datasets remain accurate and reliable. However, this makes root-cause analysis more complex.
+3) Silver layer to validate transformations and business logic. But this requires ongoing maintenance as transformation evolves.
 
 While each strategy has merit, the most effective approach is hybrid monitoring across all three layers. This ensures comprehensive coverage, early detection of raw data issues, validation of transformations, and protection of business-critical outputs.
 
