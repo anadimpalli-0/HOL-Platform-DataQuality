@@ -1,5 +1,7 @@
-College of Platform - Snowflake Data Quality HOL
+# College of Platform - Snowflake Data Quality HOL
+
 **Trusted data is vital for confident decisions, analytics, and AI. Snowflake’s Data Quality Framework ensures data remains accurate, complete, and reliable end-to-end.**
+
 ---
 
 ### 🛠️ Hands-On Lab Overview
