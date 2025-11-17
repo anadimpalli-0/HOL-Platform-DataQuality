@@ -37,22 +37,20 @@ DQ Lab WorkFlow
 - Rules and validation automation: ~30 minutes
 - Monitoring, alerting,remediation & Cleanup: ~20 minutes
 - DORA Grading: ~5 minutes
-
-### 🛠️ [Lab Instructions](/lab_instructions/DQ_LabInstructions.md) 🛠️
   
 ---
 
 ## 📖 Table of Contents
 
-- [Lab Instructions](/lab_instructions/readmeDQ_LabInstructions.md)
 - [Why this Matters](#-why-this-matters)
 - [Suggested Discovery Questions](#-suggested-discovery-questions)
 - [Repository Structure](#-repository-structure)
 - [Prerequisites & Setup Details](#-prerequisites--setup-details)
-- [Estimated Lab Timeline](#️-estimated-lab-timeline)
-- [Troubleshooting & FAQ](#️-troubleshooting--faq)
+- [Lab Instructions](/lab_instructions/readmeDQ_LabInstructions.md)
+- [Grading](#️-grading)
 - [Cleanup & Cost-Stewardship Procedures](#-cleanup--cost-stewardship-procedures)
-- [Links to Internal Resources & Helpful Documents](#-links-to-internal-resources--helpful-documents)
+- [Pro Tips, Talking Points, and Resources](#pro-tips-talking-points-and-resources)
+- [Author & Support](#-author--support)
 
 ---
 
@@ -87,9 +85,9 @@ Provide **5 to 6 open-ended questions** for customer conversations related to th
 
 ```bash
 ├── README.md           # Main entry point
-├── config/             # Configuration for DORA and Grading
+├── Lab_instructions/   # Step-by-step detailed instructions
 ├── images/             # Images for the Lab Instructions
-├── lab_instructions/   # Step-by-step detailed instructions
+├── config/             # Configuration for DORA and Grading
 └── troubleshooting/    # Common issues and resolutions
 ```
 ---
@@ -100,34 +98,34 @@ Internally helpful setup requirements:
 - Snowflake account (ACCOUNTADMIN or equivalent to bootstrap; will create least-privileged roles)
 - Ability to create warehouses, databases, schemas, roles, and tasks
 - Snowsight access for Worksheets and Dashboards
-- Sample CSV files (provided below via inline `VALUES` loads if files not available) --CHECK & REMOVE THIS
 
 ---
+### 🛠️ Lab Instructions
 
-## ⚠️ Troubleshooting & FAQ
-
-Common errors and resolutions:
-
-**Issue:** 
-**Cause:** 
-**Solution:** 
+Detailed instruction on executing the scripts can be found 
+[HERE](/lab_instructions/DQ_LabInstructions.md)
 
 ---
+## ⚠️ Grading 
+Detailed instruction on Grading instructions can be found [HERE](config/readme.md)
 
+---
 ## 🧹 Cleanup & Cost-Stewardship Procedures
 
-🗑 **Cleanup Instructions:** 
-- Run the commands
-```sql
-USE ROLE ACCOUNTADMIN;
-DROP DATABASE dq_tutorial_db;
+- Run these commands
+```sql```
 
-DROP WAREHOUSE dq_tutorial_wh;
+  USE ROLE ACCOUNTADMIN;
 
-DROP ROLE dq_tutorial_role;
-``` 
+ DROP DATABASE dq_tutorial_db;
+
+ DROP WAREHOUSE dq_tutorial_wh;
+
+ DROP ROLE dq_tutorial_role;
+
 ---
-##Pro Tips, Talking Points, and Resources
+
+## Pro Tips, Talking Points, and Resources
 
 **Pro Tips for SEs**
 - Lead with outcome: show failed rows quarantined and dashboards updating
