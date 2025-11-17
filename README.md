@@ -153,7 +153,7 @@ End of Lab.
 ## 👤 Author & Support
 
 **Lab created by:** Aparna Nadimpalli – SE Enablement Senior Manager  
-**Created on:** October 29, 2025 | **Last updated:** October 29, 2025 
+**Created on:** October 29, 2025 | **Last updated:** November 17, 2025 
 
 💬 **Need Help or Have Feedback?**  
 - Slack Channel: [#College-of-Platform](#)  
