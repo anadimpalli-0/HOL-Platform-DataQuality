@@ -46,7 +46,7 @@ DQ Lab WorkFlow
 - [Suggested Discovery Questions](#-suggested-discovery-questions)
 - [Repository Structure](#-repository-structure)
 - [Prerequisites & Setup Details](#-prerequisites--setup-details)
-- [Lab Instructions](/lab_instructions/readmeDQ_LabInstructions.md)
+- [Lab Instructions](#️-lab-instructions)
 - [Grading](#️-grading)
 - [Cleanup & Cost-Stewardship Procedures](#-cleanup--cost-stewardship-procedures)
 - [Pro Tips, Talking Points, and Resources](#pro-tips-talking-points-and-resources)
