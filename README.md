@@ -26,8 +26,11 @@ This lab enables Solutions Engineers to learn, demonstrate, and articulate Snowf
 - Task 5: Track metrics and surface outcomes in Snowsight (dashboards or worksheets)
 - Task 6: Trigger alerts on failed checks; quarantine or fix bad data
 
+Detailed instruction on executing the Lab can be found [HERE](/lab_instructions/README.md)
 
 DQ Lab WorkFlow 
+
+
 <img src="/images/DQ_Workflow.png" width="70%">
 
 ### ⏲️ Estimated Lab Timeline
@@ -102,8 +105,7 @@ Internally helpful setup requirements:
 ---
 ### 🛠️ Lab Instructions
 
-Detailed instruction on executing the scripts can be found 
-[HERE](/lab_instructions/README.md)
+Detailed instruction on executing the scripts can be found [HERE](/lab_instructions/README.md)
 
 ---
 ## ⚠️ Grading 
