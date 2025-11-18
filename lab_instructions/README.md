@@ -292,5 +292,5 @@ This feature is currently in Private Preview(PrPr). The setup procedures for not
 # Grading 
 Complete grading before cleaning up the objects created in this Lab
 
-Detailed instruction on Grading instructions can be found [HERE](config/readme.md)
+Detailed instruction on Grading instructions can be found [HERE](/config/readme.md)
 
