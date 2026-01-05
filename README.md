@@ -158,7 +158,7 @@ End of Lab.
 **Created on:** October 29, 2025 | **Last updated:** November 17, 2025 
 
 💬 **Need Help or Have Feedback?**  
-- Slack Channel: [#College-of-Platform](#)  
+- Slack Channel: [#College-of-Platform](https://snowflake.enterprise.slack.com/archives/C0A3K5FT4UF)  
 - Slack DM: [@aparna.nadimpalli](https://snowflake.enterprise.slack.com/team/U03RQG03MJR)  
 - Email: [aparna.nadimpalli@snowflake.com](mailto:aparna.nadimpalli@snowflake.com)
 
