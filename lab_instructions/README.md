@@ -289,7 +289,8 @@ Finally, you can use these results for Monitoring and leverage Snowflake Alerts 
 
 This feature is currently in Private Preview(PrPr). The setup procedures for notifications will be accessible in the LAB once the feature transitions to Public Preview(PuPr).
 
-# Grading 
+# Next Steps
+## Grading 
 Complete grading before cleaning up the objects created in this Lab
 
 Detailed instruction on Grading instructions can be found [HERE](/config/readme.md)

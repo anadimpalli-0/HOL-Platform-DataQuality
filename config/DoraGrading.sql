@@ -15,7 +15,7 @@ SELECT
     ) AS graded_results
 FROM (
    SELECT
-        'STEP01' AS step,
+        'SEPDQ01' AS step,
         (
             SELECT COUNT(*) 
             FROM tables
@@ -35,7 +35,7 @@ SELECT
     ) AS graded_results
 FROM (
    SELECT
-        'STEP02' AS step,
+        'SEPDQ02' AS step,
         (
             SELECT COUNT(*) 
             FROM tables
@@ -55,7 +55,7 @@ SELECT
     ) AS graded_results
 FROM (
    SELECT
-        'STEP03' AS step,
+        'SEPDQ03' AS step,
         (
             SELECT COUNT(*) 
             FROM functions
@@ -75,7 +75,7 @@ SELECT
     ) AS graded_results
 FROM (
    SELECT
-        'STEP04' AS step,
+        'SEPDQ04' AS step,
         (
             SELECT COUNT(*) 
             FROM functions
